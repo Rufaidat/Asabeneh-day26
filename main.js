@@ -205,8 +205,8 @@ for (i = 0; i < countries.length; i++) {
   container.appendChild(card);
 }
 let list = document.querySelectorAll(".card");
-let count = 0;
 function searchCountries() {
+  let count = 0;
   for (i = 0; i < list.length; i++) {
     if (!list[i].textContent.startsWith(input.value.toUpperCase())) {
       list[i].style.display = "none";
